@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Inria Serif', serif;
+  font-size: 15px;
+  color: #545454;
+  background: #f9f6f7;
+}
+
+h1{
+  margin:200px auto 0 auto;
+  font-size: 5.625rem;/* 16px = 100% = 1em, for no parent issue use REM*/
+  /* 90px = 5.625em */
+  color: #4a69bb;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+h2{
+  font-family: 'Slabo 27px', serif;
+  color: #617be3;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  color: #4a47a3;
+}
+
+a{
+  color: #4a47a3;
+  text-decoration: none;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f65c78;
+  border-width: 4.5px;
+  width: 15%;
+  position: relative;
+  top: 30px;
+  clear: none;
+  margin: auto;
+}
+
+.hr-prob{
+  position: relative;
+  left: 320px;
+}
+
+.top-container{
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+
+.profile{
+  border-radius:50%;
+  width: 50%;
+  text-align: center;
+  margin:100px auto 100px auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container{
+
+}
+
+.contact-me{
+  margin-bottom: 100px;
+  margin:100px auto 100px auto;
+  text-align: center;
+  width: 50%;
+  line-height: 2;
+}
+
+.contact-me a{
+  margin-top: 15px;
+	background-color:#44c767;
+	border-radius:22px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Slabo 27px', serif;;
+	font-size:17px;
+	padding:16px 74px;
+	text-decoration:none;
+}
+a.contact-me:hover {
+	background-color:#1e3dd6;
+}
+a.contact-me:active {
+	position:relative;
+	top:1px;
+}
+
+
+.footer-link{
+  margin-right: 10px;
+}
+
+.bottom-container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color:#c7f0db;
+}
+
+.copyright{ /*in case i wanted to underline something in text*/
+  color: black;
+  text-decoration: underline;
+}
+
+
+/******************* IMAGES *******************/
+.top-cloud{
+  position: absolute;
+  right: 50px;
+  top: 100px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+}
+
+.memoji-img{
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.code-img{
+  width: 40%;
+  float: left;/*only use for wrapping text*/
+  margin-right: 30px;
+}
+
+.brain-img{
+  width: 40%;
+  float: right;
+  position: relative;
+  bottom: 100px;
+
+}
+
+.circlepics{
+  border-radius:50%;
+  width: 200px;
+}
+
+.profile{
+  border-radius:50%;
+  width: 50%;
+  margin:auto;
+}
